@@ -158,12 +158,15 @@ footer{
 .contact-form label{
     font-weight: 600;
     margin-bottom: 6px;
+    font-size: 14px;
 }
 
-.contact-form input{
+.contact-form input, .contact-form textarea, .contact-form select{
     width: 100%;
     padding: 12px 14px;
     font-size: 16px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
 }
 
 
